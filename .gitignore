@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de configuração locais
+*.ini
+*.cfg
+*.toml
+
+# --- Logs ---
+*.log
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- VSCode / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- LangChain / LangGraph ---
+# Cache e armazenamentos locais
+.cache/
+lc_cache/
+langchain.db
+langgraph.db
+
+# --- ChromaDB ---
+chroma/
+chromadb/
+*.chroma
+
+# --- SQLite ---
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Dados e segredos ---
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# --- Outros ---
+.DS_Store
+Thumbs.db
+data/
+users.json
